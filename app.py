@@ -22,7 +22,7 @@ def read_root():
     return {"Hello": "jenkins_cicd_pipeline"}
     
 @app.get("/devlope")
-def devlope:
+def devlope():
     return {"branch":"devlope")
  
 handler = mangum.Mangum(app)
